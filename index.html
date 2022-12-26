@@ -9,15 +9,21 @@
     <body>
         <header>
             <div class="color-picker-container">
-                <div class="color-picker"></div>
+                <input type="color" class="color-picker" id="color-picker">
             </div>
-            <select>
-                <option selected >Monochrome</option>
-                <option>Monochrome-dark</option>
+            <select id="scheme-mode">
+                <option value="monochrome" selected >Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
             </select>
-            <button>Get color scheme</button>
+            <button id="submit-btn">Get color scheme</button>
         </header>
-        <main>
+        <main id="main-container">
             <section class="main-color">
                 <div class="color" style="background-color:#F55A5A;"></div>
                 <div class="color-code">
