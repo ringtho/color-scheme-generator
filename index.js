@@ -17,7 +17,6 @@ function handleSubmitBtn(){
         .then(res => res.json())
         .then(data => {
             let html = ""
-            console.log(data.colors)
             data.colors.forEach((color, index) => {
                 html += `
                 <section class="main-color">

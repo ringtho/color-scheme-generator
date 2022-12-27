@@ -127,3 +127,26 @@ button:focus {
         writing-mode: revert;
     }
 }
+
+@media (max-width: 485px) {
+
+    header {
+        flex-direction: column;
+        height: 20vh;
+        gap: 10px;
+    }
+
+    select, 
+    button {
+        width: 100%;
+    }
+
+    .color-picker-container {
+        height: 42px;
+        width: 100%;
+    }
+
+    .main-color {
+        height: 16vh;
+    }
+}
