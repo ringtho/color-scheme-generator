@@ -61,6 +61,12 @@ header,
 .color-code p {
     writing-mode: vertical-rl;
     text-orientation: sideways;
+    border-radius: 4px;
+    padding: 0.1875em;
+}
+
+.color-code p:hover {
+    background-color: #3D4B60;
 }
 
 select {
