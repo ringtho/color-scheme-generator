@@ -34,7 +34,7 @@ function handleSubmitBtn(){
 function handleCopyTextToClipBoard(id){
     let text = document.getElementById(id).textContent;
     navigator.clipboard.writeText(text).then(() => {
-        alert("Copied the text: " + text)
+        alert("Copied " + text + " to the clipboard")
       },() => {
         console.error('Failed to copy');
     });

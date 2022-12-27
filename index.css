@@ -132,7 +132,7 @@ button:focus {
 
     header {
         flex-direction: column;
-        height: 20vh;
+        height: 25vh;
         gap: 10px;
     }
 
@@ -147,6 +147,6 @@ button:focus {
     }
 
     .main-color {
-        height: 16vh;
+        min-height: 15vh;
     }
 }
